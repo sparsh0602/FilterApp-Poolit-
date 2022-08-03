@@ -1,0 +1,74 @@
+@media (min-width: 768px) and (max-width: 1024px)
+    {
+        .card_container{
+            background-color: white;
+            margin: auto;
+            max-width: 52.5vw;
+            min-height: 15vh;
+            border: 2px solid black;
+            margin-top: 2.5vh;
+            border-radius: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .card_image{
+            min-width: 70px;
+            max-height: 70px;
+            margin-top: 3vh;
+            margin-left: 1vw;
+            border: 2px solid black;
+            border-radius: 80px;
+        }
+        .card_personal_info{
+            display: flex;
+            flex-direction: column;
+            min-width: 18vw;
+            max-width: 18vw;
+            min-height: 15vh;
+            justify-content: space-around;
+            
+            
+        }
+        .card_product_info{
+            display: flex;
+            flex-direction: column;
+            min-width: 17vw;
+            max-width: 17vw;
+            min-height: 15vh;
+            justify-content: space-around;
+            margin-right: 0.5vw;
+            
+        }
+        .card_personal_info_name{
+            font-weight: 700;
+            font-size: 20px;
+            overflow-x: scroll;
+        }
+        .card_personal_info_email{
+            font-size: 20px;
+            overflow-x: scroll;
+        }
+        .card_product_info_country{
+            font-size: 20px;
+            overflow-x: scroll;
+        }
+        .card_product_info_vehicle{
+            font-size: 20px;
+            overflow-x: scroll;
+        }
+        .card_personal_info_email::-webkit-scrollbar{
+            display: none;
+        }
+        
+        .card_personal_info_name::-webkit-scrollbar{
+            display: none;
+        }
+        
+        .card_product_info_vehicle::-webkit-scrollbar{
+            display: none;
+        }
+        
+        .card_product_info_country::-webkit-scrollbar{
+            display: none;
+        }
+    }

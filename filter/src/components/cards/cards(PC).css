@@ -1,0 +1,76 @@
+@media all and (min-width:1025px)
+{
+    .card_container{
+        background-color: white;
+        margin: auto;
+        max-width: 35vw;
+        min-height: 15vh;
+        border: 2px solid black;
+        margin-top: 2.5vh;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .card_image{
+        min-width: 100px;
+        max-height: 100px;
+        margin-top: 2vh;
+        margin-left: 1vw;
+        border: 2px solid black;
+        border-radius: 50px;
+    }
+    .card_personal_info{
+        display: flex;
+        flex-direction: column;
+        min-width: 10vw;
+        max-width: 10vw;
+        min-height: 15vh;
+        justify-content: space-around;
+    }
+    .card_product_info{
+        display: flex;
+        flex-direction: column;
+        min-width: 9vw;
+        max-width: 9vw;
+        min-height: 15vh;
+        justify-content: space-around;    
+        margin-right: 0.5vw;
+        
+    }
+    .card_personal_info_name{
+        font-weight: 700;
+        font-size: 20px;
+        overflow-x: scroll;
+    }
+    .card_personal_info_email{
+        font-size: 15px;
+        max-width: 200px;
+        min-width: 200px;
+        overflow-x: scroll;
+    }
+    .card_product_info_country{
+        font-size: 20px;
+        overflow-x: scroll;
+    }
+    .card_product_info_vehicle{
+        font-size: 20px;
+        overflow-x: scroll;
+    }
+    .card_personal_info_email::-webkit-scrollbar{
+        display: none;
+    }
+    
+    .card_personal_info_name::-webkit-scrollbar{
+        display: none;
+    }
+    
+    .card_product_info_vehicle::-webkit-scrollbar{
+        display: none;
+    }
+    
+    .card_product_info_country::-webkit-scrollbar{
+        display: none;
+    }
+    
+    
+}
