@@ -152,7 +152,7 @@ export default function HomePage() {
     const removeDuplicateValues=()=>{
         const countryArray = [...api_Data];
         const vehicleArray = [...api_Data];
-
+        setdata_to_display(api_Data);
         const filteredCountryArray =countryArray.reduce((acc, current) => {
             const x = acc.find(item => item.country === current.country);
             if (!x) {
